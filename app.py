@@ -62,7 +62,7 @@ def update():
     key = payload["key"]
     value = payload["value"]
 
-    json_file = open("./datos.json") 
+    json_file = open("../ShrimpSoftware-1.0-Linux/json/hardware_devices_radio.json") 
     json_data = js.load(json_file)
     json_file.close()
 
