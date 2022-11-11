@@ -1,0 +1,12 @@
+[Unit]
+Description=ROT13 demo service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+RestartSec=1
+User=pi
+ExecStart=/usr/bin/python3 /home/debian/controller/app.py
+
+[Install]
+WantedBy=multi-user.target
