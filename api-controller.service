@@ -6,7 +6,7 @@ StartLimitIntervalSec=0
 Type=simple
 RestartSec=1
 User=pi
-ExecStart=/usr/bin/python3 /home/debian/controller/app.py
+ExecStart=sudo /usr/bin/python3 /home/debian/controller/app.py
 
 [Install]
 WantedBy=multi-user.target
