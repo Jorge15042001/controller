@@ -1,0 +1,1171 @@
+{
+    "actuators": [
+        {
+            "driver": "./Actuators/RemoteActuator.so",
+            "enabled": true,
+            "hardware_params": [
+                {
+                    "name": "dest_address",
+                    "value": "00:13:A2:00:41:0A:2A:68"
+                },
+                {
+                    "name": "times",
+                    "value": 4
+                },
+                {
+                    "name": "device",
+                    "value": "/dev/ttyAL4"
+                },
+                {
+                    "name": "baud_rate",
+                    "value": "9600"
+                },
+                {
+                    "name": "api_version",
+                    "value": "xbee2"
+                },
+                {
+                    "name": "driver",
+                    "value": "./Radios/XbeeEndDevice.so"
+                }
+            ],
+            "id": 15,
+            "info": "productor,version",
+            "name": "Feeder 7",
+            "params": [
+                {
+                    "name": "min_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "max_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "1"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "unit",
+                    "value": "8"
+                },
+                {
+                    "name": "feedrate",
+                    "value": "55"
+                },
+                {
+                    "name": "interval",
+                    "value": "120"
+                },
+                {
+                    "name": "offset_on",
+                    "value": "0"
+                },
+                {
+                    "name": "start_acustic",
+                    "value": "100"
+                },
+                {
+                    "name": "feeding_bait",
+                    "value": "150"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Actuators/RemoteActuator.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "dest_address",
+                    "value": "00:13:A2:00:41:76:5B:32"
+                },
+                {
+                    "name": "times",
+                    "value": "3"
+                },
+                {
+                    "name": "device",
+                    "value": "/dev/ttyUSB0"
+                },
+                {
+                    "name": "baud_rate",
+                    "value": "9600"
+                },
+                {
+                    "name": "api_version",
+                    "value": "xbee2"
+                },
+                {
+                    "name": "driver",
+                    "value": "./Radios/XbeeEndDevice.so"
+                }
+            ],
+            "id": 16,
+            "info": "productor,version",
+            "name": "Feeder 9",
+            "params": [
+                {
+                    "name": "min_HW_time",
+                    "value": "0"
+                },
+                {
+                    "name": "max_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "1"
+                },
+                {
+                    "name": "min_time",
+                    "value": "0"
+                },
+                {
+                    "name": "unit",
+                    "value": "8"
+                },
+                {
+                    "name": "feedrate",
+                    "value": "55"
+                },
+                {
+                    "name": "interval",
+                    "value": "120"
+                },
+                {
+                    "name": "offset_on",
+                    "value": "0"
+                },
+                {
+                    "name": "start_acustic",
+                    "value": "100"
+                },
+                {
+                    "name": "feeding_bait",
+                    "value": "150"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Actuators/RemoteActuator.so",
+            "enabled": true,
+            "hardware_params": [
+                {
+                    "name": "dest_address",
+                    "value": "00:13:A2:00:41:6B:E5:F8"
+                },
+                {
+                    "name": "times",
+                    "value": "3"
+                },
+                {
+                    "name": "device",
+                    "value": "/dev/ttyAL4"
+                },
+                {
+                    "name": "baud_rate",
+                    "value": "9600"
+                },
+                {
+                    "name": "api_version",
+                    "value": "xbee2"
+                },
+                {
+                    "name": "driver",
+                    "value": "./Radios/XbeeEndDevice.so"
+                }
+            ],
+            "id": 17,
+            "info": "productor,version",
+            "name": "Feeder 8",
+            "params": [
+                {
+                    "name": "min_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "max_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "1"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "unit",
+                    "value": "8"
+                },
+                {
+                    "name": "feedrate",
+                    "value": "48"
+                },
+                {
+                    "name": "interval",
+                    "value": "120"
+                },
+                {
+                    "name": "offset_on",
+                    "value": "4"
+                },
+                {
+                    "name": "start_acustic",
+                    "value": "100"
+                },
+                {
+                    "name": "feeding_bait",
+                    "value": "100"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Actuators/RemoteActuator.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "dest_address",
+                    "value": "00:13:A2:00:41:9B:61:0F"
+                },
+                {
+                    "name": "times",
+                    "value": "3"
+                },
+                {
+                    "name": "device",
+                    "value": "/dev/ttyUSB0"
+                },
+                {
+                    "name": "baud_rate",
+                    "value": "9600"
+                },
+                {
+                    "name": "api_version",
+                    "value": "xbee2"
+                },
+                {
+                    "name": "driver",
+                    "value": "./Radios/XbeeEndDevice.so"
+                }
+            ],
+            "id": 18,
+            "info": "productor,version",
+            "name": "Feeder 6",
+            "params": [
+                {
+                    "name": "min_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "max_HW_time",
+                    "value": "1"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "1"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "unit",
+                    "value": "8"
+                },
+                {
+                    "name": "feedrate",
+                    "value": "48"
+                },
+                {
+                    "name": "interval",
+                    "value": "120"
+                },
+                {
+                    "name": "offset_on",
+                    "value": "4"
+                },
+                {
+                    "name": "start_acustic",
+                    "value": "100"
+                },
+                {
+                    "name": "feeding_bait",
+                    "value": "100"
+                }
+            ],
+            "type": 2
+        }
+    ],
+    "channels": [
+        {
+            "driver": "./Radios/XbeeEndDevice.so",
+            "enabled": true,
+            "params": [
+                {
+                    "name": "device",
+                    "value": "/dev/ttyUSB0"
+                },
+                {
+                    "name": "dest_address",
+                    "value": "00:13:A2:00:41:77:28:AD"
+                },
+                {
+                    "name": "baud_rate",
+                    "value": "9600"
+                },
+                {
+                    "name": "api_version",
+                    "value": "xbee2"
+                }
+            ],
+            "type": "xbee"
+        }
+    ],
+    "hydrophones": [
+        {
+            "driver": "./Sensors/MockHydrophoneSensor.so",
+            "id": 125,
+            "name": "Hidrofono",
+            "info": "hidrofono viejo",
+            "enabled": true,
+            "type": 4,
+            "actuators": [
+                15,
+                16,
+                17,
+                18
+            ],
+            "params": [
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "unit",
+                    "value": "6"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "50000"
+                },
+                {
+                    "name": "min_recording_time",
+                    "value": "60"
+                },
+                {
+                    "name": "time_to_listen",
+                    "value": "60"
+                },
+                {
+                    "name": "seconds_to_record",
+                    "value": "1200"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "2"
+                },
+                {
+                    "name": "id_shrimp_activity",
+                    "value": "14"
+                },
+                {
+                    "name": "id_machine_activity",
+                    "value": "20"
+                },
+                {
+                    "name": "wait_between_measure",
+                    "value": "0"
+                }
+            ],
+            "hardware_params": [
+                {
+                    "name": "record_path",
+                    "value": "/home/rodfcast/Documentos/BioDynamics/ShrimpAnalytics/data/4_marzo/HR_03-03-2020_20_45_03.wav"
+                }
+            ]
+        },
+        {
+            "driver": "./Sensors/MockHydrophoneSensor.so",
+            "id": 126,
+            "name": "Hidrofono 2",
+            "info": "hidrofono viejo",
+            "enabled": false,
+            "type": 4,
+            "actuators": [
+                13
+            ],
+            "params": [
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "unit",
+                    "value": "6"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "50000"
+                },
+                {
+                    "name": "min_recording_time",
+                    "value": "60"
+                },
+                {
+                    "name": "time_to_listen",
+                    "value": "60"
+                },
+                {
+                    "name": "seconds_to_record",
+                    "value": "1200"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "2"
+                },
+                {
+                    "name": "id_shrimp_activity",
+                    "value": "14"
+                },
+                {
+                    "name": "id_machine_activity",
+                    "value": "20"
+                }
+            ],
+            "hardware_params": [
+                {
+                    "name": "record_path",
+                    "value": "/home/rodfcast/Descargas/HR_test.wav"
+                }
+            ]
+        },
+        {
+            "driver": "./Sensors/HydrophoneSensor.so",
+            "id": 19,
+            "name": "Hidrofono",
+            "info": "hidrofono AS1",
+            "enabled": false,
+            "type": 4,
+            "actuators": [
+                15,
+                16,
+                17,
+                18
+            ],
+            "params": [
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "unit",
+                    "value": "6"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "50000"
+                },
+                {
+                    "name": "min_recording_time",
+                    "value": "60"
+                },
+                {
+                    "name": "time_to_listen",
+                    "value": "60"
+                },
+                {
+                    "name": "seconds_to_record",
+                    "value": "1200"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "60"
+                },
+                {
+                    "name": "id_shrimp_activity",
+                    "value": "14"
+                },
+                {
+                    "name": "id_machine_activity",
+                    "value": "20"
+                },
+                {
+                    "name": "wait_between_measure",
+                    "value": "0"
+                }
+            ],
+            "hardware_params": [
+                {
+                    "name": "record_path",
+                    "value": "/home/debian/HR_21-09-2019_20_05_37.wav"
+                },
+                {
+                    "name": "samples",
+                    "value": "50000"
+                },
+                {
+                    "name": "out_base",
+                    "value": "576"
+                },
+                {
+                    "name": "in_base",
+                    "value": "608"
+                }
+            ]
+        },
+        {
+            "driver": "./Sensors/HydrophoneSensor.so",
+            "id": 20,
+            "name": "Hidrofono",
+            "info": "hidrofono H3B",
+            "enabled": false,
+            "type": 4,
+            "actuators": [
+                12
+            ],
+            "params": [
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "unit",
+                    "value": "6"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "50000"
+                },
+                {
+                    "name": "min_recording_time",
+                    "value": "60"
+                },
+                {
+                    "name": "time_to_listen",
+                    "value": "60"
+                },
+                {
+                    "name": "seconds_to_record",
+                    "value": "1200"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "60"
+                },
+                {
+                    "name": "id_shrimp_activity",
+                    "value": "14"
+                },
+                {
+                    "name": "id_machine_activity",
+                    "value": "20"
+                },
+                {
+                    "name": "wait_between_measure",
+                    "value": "0"
+                }
+            ],
+            "hardware_params": [
+                {
+                    "name": "record_path",
+                    "value": "/home/debian/HR_21-09-2019_20_05_37.wav"
+                },
+                {
+                    "name": "samples",
+                    "value": "50000"
+                },
+                {
+                    "name": "out_base",
+                    "value": "384"
+                },
+                {
+                    "name": "in_base",
+                    "value": "544"
+                }
+            ]
+        }
+    ],
+    "queues": [
+        {
+            "QUEUE_SIZE": 204,
+            "QUEUE_EMPTY": 203,
+            "QUEUE_FULL": 202,
+            "QUEUE_SEMAPHORE": 201,
+            "QUEUE_XBEE": 200,
+            "channel_to_send": "xbee",
+            "enabled": true,
+            "subsystem": "monitor",
+            "type": "data",
+            "n_samples": 100
+        },
+        {
+            "QUEUE_SIZE": 254,
+            "QUEUE_EMPTY": 253,
+            "QUEUE_FULL": 252,
+            "QUEUE_SEMAPHORE": 251,
+            "QUEUE_XBEE": 250,
+            "channel_to_send": "xbee",
+            "enabled": true,
+            "subsystem": "monitor",
+            "type": "alarms",
+            "n_samples": 100
+        },
+        {
+            "QUEUE_SIZE": 404,
+            "QUEUE_EMPTY": 403,
+            "QUEUE_FULL": 402,
+            "QUEUE_SEMAPHORE": 401,
+            "QUEUE_XBEE": 400,
+            "channel_to_send": "xbee",
+            "enabled": false,
+            "subsystem": "actuator",
+            "type": "data",
+            "n_samples": 100
+        },
+        {
+            "QUEUE_SIZE": 204,
+            "QUEUE_EMPTY": 453,
+            "QUEUE_FULL": 452,
+            "QUEUE_SEMAPHORE": 451,
+            "QUEUE_XBEE": 450,
+            "channel_to_send": "xbee",
+            "enabled": false,
+            "subsystem": "actuator",
+            "type": "alarms",
+            "n_samples": 100
+        },
+        {
+            "QUEUE_SIZE": 604,
+            "QUEUE_EMPTY": 603,
+            "QUEUE_FULL": 602,
+            "QUEUE_SEMAPHORE": 601,
+            "QUEUE_XBEE": 605,
+            "channel_to_send": "xbee",
+            "enabled": true,
+            "subsystem": "processor",
+            "type": "data",
+            "n_samples": 100
+        },
+        {
+            "QUEUE_SIZE": 654,
+            "QUEUE_EMPTY": 653,
+            "QUEUE_FULL": 652,
+            "QUEUE_SEMAPHORE": 651,
+            "QUEUE_XBEE": 655,
+            "channel_to_send": "xbee",
+            "enabled": true,
+            "subsystem": "processor",
+            "type": "alarms",
+            "n_samples": 100
+        },
+        {
+            "QUEUE_SIZE": 334,
+            "QUEUE_EMPTY": 333,
+            "QUEUE_FULL": 332,
+            "QUEUE_SEMAPHORE": 331,
+            "QUEUE_XBEE": 355,
+            "channel_to_send": "xbee",
+            "enabled": false,
+            "subsystem": "control",
+            "type": "alarm",
+            "n_samples": 100
+        }
+    ],
+    "sensors": [
+        {
+            "driver": "./Sensors/RainingSensor.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "in_base",
+                    "value": "512"
+                }
+            ],
+            "id": 34,
+            "info": "productor,version",
+            "is_multisensor": false,
+            "name": "Raining sensor",
+            "params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "1"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "20"
+                },
+                {
+                    "name": "unit",
+                    "value": "9"
+                },
+                {
+                    "name": "logical_id",
+                    "value": "2"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Sensors/RandomSensor.so",
+            "enabled": false,
+            "id": 17,
+            "inner_sensors": [
+                {
+                    "driver": "./Sensors/ModbusSensor.so",
+                    "enabled": false,
+                    "hardware_params": [
+                        {
+                            "name": "device",
+                            "value": "/dev/ttyAL0"
+                        },
+                        {
+                            "name": "parity",
+                            "value": "E"
+                        },
+                        {
+                            "name": "baud_rate",
+                            "value": "19200"
+                        },
+                        {
+                            "name": "dbits",
+                            "value": "8"
+                        },
+                        {
+                            "name": "sbits",
+                            "value": "1"
+                        },
+                        {
+                            "name": "slave_id",
+                            "value": "1"
+                        },
+                        {
+                            "name": "start_ref",
+                            "value": "38"
+                        },
+                        {
+                            "name": "count",
+                            "value": "10"
+                        },
+                        {
+                            "name": "lsb_index",
+                            "value": "39"
+                        },
+                        {
+                            "name": "msb_index",
+                            "value": "38"
+                        },
+                        {
+                            "name": "units",
+                            "value": "41"
+                        },
+                        {
+                            "name": "data_quality",
+                            "value": "41"
+                        }
+                    ],
+                    "id": 11,
+                    "info": "productor,version",
+                    "is_multisensor": false,
+                    "name": "Oxigeno",
+                    "params": [
+                        {
+                            "name": "measure_item",
+                            "value": "0"
+                        },
+                        {
+                            "name": "measure_type",
+                            "value": "2"
+                        },
+                        {
+                            "name": "min_time",
+                            "value": "1"
+                        },
+                        {
+                            "name": "num_samples",
+                            "value": "1"
+                        },
+                        {
+                            "name": "sensing_interval",
+                            "value": "60"
+                        },
+                        {
+                            "name": "unit",
+                            "value": "3"
+                        }
+                    ],
+                    "type": 2
+                },
+                {
+                    "driver": "./Sensors/ModbusSensor.so",
+                    "enabled": false,
+                    "hardware_params": [
+                        {
+                            "name": "device",
+                            "value": "/dev/ttyAL0"
+                        },
+                        {
+                            "name": "parity",
+                            "value": "E"
+                        },
+                        {
+                            "name": "baud_rate",
+                            "value": "19200"
+                        },
+                        {
+                            "name": "dbits",
+                            "value": "8"
+                        },
+                        {
+                            "name": "sbits",
+                            "value": "1"
+                        },
+                        {
+                            "name": "slave_id",
+                            "value": "2"
+                        },
+                        {
+                            "name": "start_ref",
+                            "value": "38"
+                        },
+                        {
+                            "name": "count",
+                            "value": "10"
+                        },
+                        {
+                            "name": "lsb_index",
+                            "value": "39"
+                        },
+                        {
+                            "name": "msb_index",
+                            "value": "38"
+                        },
+                        {
+                            "name": "units",
+                            "value": "41"
+                        },
+                        {
+                            "name": "data_quality",
+                            "value": "41"
+                        }
+                    ],
+                    "id": 12,
+                    "info": "productor,version",
+                    "is_multisensor": false,
+                    "name": "Oxigeno",
+                    "params": [
+                        {
+                            "name": "measure_item",
+                            "value": "0"
+                        },
+                        {
+                            "name": "measure_type",
+                            "value": "2"
+                        },
+                        {
+                            "name": "min_time",
+                            "value": "1"
+                        },
+                        {
+                            "name": "num_samples",
+                            "value": "1"
+                        },
+                        {
+                            "name": "sensing_interval",
+                            "value": "60"
+                        },
+                        {
+                            "name": "unit",
+                            "value": "3"
+                        }
+                    ],
+                    "type": 2
+                }
+            ],
+            "is_multisensor": true,
+            "name": "multisensor_insitum",
+            "type": 4
+        },
+        {
+            "driver": "./Sensors/RandomSensor.so",
+            "enabled": true,
+            "hardware_params": [
+                {
+                    "name": "device",
+                    "value": "/dev/ttyAL0"
+                },
+                {
+                    "name": "parity",
+                    "value": "E"
+                },
+                {
+                    "name": "baud_rate",
+                    "value": "19200"
+                },
+                {
+                    "name": "dbits",
+                    "value": "8"
+                },
+                {
+                    "name": "sbits",
+                    "value": "1"
+                },
+                {
+                    "name": "slave_id",
+                    "value": "3"
+                },
+                {
+                    "name": "start_ref",
+                    "value": "38"
+                },
+                {
+                    "name": "count",
+                    "value": "10"
+                },
+                {
+                    "name": "lsb_index",
+                    "value": "39"
+                },
+                {
+                    "name": "msb_index",
+                    "value": "38"
+                },
+                {
+                    "name": "units",
+                    "value": "41"
+                },
+                {
+                    "name": "data_quality",
+                    "value": "41"
+                }
+            ],
+            "id": 12,
+            "info": "productor,version",
+            "is_multisensor": false,
+            "name": "Random sensor",
+            "params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "1"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "300"
+                },
+                {
+                    "name": "unit",
+                    "value": "3"
+                },
+                {
+                    "name": "min_value",
+                    "value": "0"
+                },
+                {
+                    "name": "max_value",
+                    "value": "100"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Sensors/MemoryState.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                }
+            ],
+            "id": 14,
+            "info": "productor,version",
+            "is_multisensor": false,
+            "name": "Memory State",
+            "params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "1"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "30"
+                },
+                {
+                    "name": "unit",
+                    "value": "9"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Sensors/ControllerState.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                }
+            ],
+            "id": 15,
+            "info": "productor,version",
+            "is_multisensor": false,
+            "name": "Uptime Controller",
+            "params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "1"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "30"
+                },
+                {
+                    "name": "unit",
+                    "value": "4"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Sensors/CpuState.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                }
+            ],
+            "id": 13,
+            "info": "productor,version",
+            "is_multisensor": false,
+            "name": "Cpu Controller",
+            "params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "1"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "30"
+                },
+                {
+                    "name": "unit",
+                    "value": "10"
+                }
+            ],
+            "type": 2
+        },
+        {
+            "driver": "./Sensors/MemoryProcess.so",
+            "enabled": false,
+            "hardware_params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                }
+            ],
+            "id": 34,
+            "info": "productor,version",
+            "is_multisensor": false,
+            "name": "Memory process",
+            "params": [
+                {
+                    "name": "measure_item",
+                    "value": "0"
+                },
+                {
+                    "name": "measure_type",
+                    "value": "2"
+                },
+                {
+                    "name": "min_time",
+                    "value": "1"
+                },
+                {
+                    "name": "num_samples",
+                    "value": "1"
+                },
+                {
+                    "name": "sensing_interval",
+                    "value": "20"
+                },
+                {
+                    "name": "unit",
+                    "value": "9"
+                },
+                {
+                    "name": "logical_id",
+                    "value": "2"
+                }
+            ],
+            "type": 2
+        }
+    ]
+}
