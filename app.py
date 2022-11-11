@@ -56,7 +56,7 @@ def find_key_index(params,key):
 
 @app.route("/update",methods=['POST'])
 def update():
-    payload:dict = request.get_json()
+    payload= request.get_json()
     device_type = payload["device_type"]
     device_id = payload["device_id"]
     key = payload["key"]
