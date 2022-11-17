@@ -74,7 +74,7 @@ def update():
 
     json_data[device_type][device_index]["params"][param_index]['value'] = value
 
-    json_file = open("./datos.json","w+") 
+    json_file = open("../ShrimpSoftware-1.0-Linux/json/hardware_devices_radio.json","w+") 
     js_string = js.dumps(json_data,indent=4, separators=(',', ': '))
     json_file.write(js_string)
     json_file.close()
@@ -84,6 +84,30 @@ def update():
             "success":True,
     }
 
+@app.route("/get/<device_type>/<id_device>/<key>",methods=['GET'])
+def get_param(device_type,id_device,key):
+    json_file = open("../ShrimpSoftware-1.0-Linux/json/hardware_devices_radio.json") 
+    json_data = js.load(json_file)
+    json_file.close()
+    try:
+        devices = json_data[device_type]
+        device_index = find_device_index(devices,device_id)
+
+        device_params = devices[device_index]["hardware_params"]
+        param_index = find_key_index(device_params,key)
+
+        value = json_data[device_type][device_index]["params"][param_index]['value'] 
+        return {
+            "success":True,
+            "value":value
+                } 
+
+    except:
+        return {
+            "success":False,
+            "value":None,
+            "str_err":"could not find requested value"
+                } 
 
 if __name__=="__main__":
     app.run(debug=True)
