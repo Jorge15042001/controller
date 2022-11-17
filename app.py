@@ -72,7 +72,7 @@ def update():
     device_params = devices[device_index]["hardware_params"]
     param_index = find_key_index(device_params,key)
 
-    json_data[device_type][device_index]["hardware_params"][param_index]['value'] = value
+    json_data[device_type][device_index]["params"][param_index]['value'] = value
 
     json_file = open("./datos.json","w+") 
     js_string = js.dumps(json_data,indent=4, separators=(',', ': '))
