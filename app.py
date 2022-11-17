@@ -69,7 +69,7 @@ def update():
     devices = json_data[device_type]
     device_index = find_device_index(devices,device_id)
 
-    device_params = devices[device_index]["hardware_params"]
+    device_params = devices[device_index]["params"]
     param_index = find_key_index(device_params,key)
 
     json_data[device_type][device_index]["params"][param_index]['value'] = value
@@ -91,9 +91,9 @@ def get_param(device_type,id_device,key):
     json_file.close()
     try:
         devices = json_data[device_type]
-        device_index = find_device_index(devices,device_id)
+        device_index = find_device_index(devices,int(id_device))
 
-        device_params = devices[device_index]["hardware_params"]
+        device_params = devices[device_index]["params"]
         param_index = find_key_index(device_params,key)
 
         value = json_data[device_type][device_index]["params"][param_index]['value'] 
