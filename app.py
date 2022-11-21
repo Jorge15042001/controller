@@ -1,47 +1,13 @@
-
 from flask import Flask,request,jsonify
 from flask_swagger import swagger
 from datetime import  datetime
 import json as js
 
-
-from flask_sqlalchemy import SQLAlchemy
+from dotenv import dotenv_values
+JSON_PATH = dotenv_values(".env")["JSON_FILE"]
+print(JSON_PATH)
 
 app = Flask(__name__)
-ctx = app.app_context() # We are storing the context in a variable
-ctx.push()
-
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
-db = SQLAlchemy(app)
-
-
-
-
-class UpdateParamRequest(db.Model):
-    __tablename__ = 'UpdateParamRequest'
-    __table_args__ = { 'extend_existing': True }
-    id_request = db.Column(db.Integer,primary_key = True, autoincrement=True)
-    id_device= db.Column(db.String(50))
-    file = db.Column(db.String(50))
-    key = db.Column(db.String(50))
-    valor = db.Column(db.String(50))
-
-db.create_all()
-
-#  @app.route("/get",methods=['GET'])
-#  def get():
-#      payload:dict = request.get_json()
-#      file = payload["file"]
-#      key = payload["key"]
-#      #  value = payload["value"]
-#
-#      return {
-#              "success":True,
-#              "str_err":"",
-#              "value":""
-#      }
-
 
 def find_device_index(devices,device_id):
     for i,d in enumerate(devices):
